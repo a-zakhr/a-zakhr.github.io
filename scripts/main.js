@@ -1,0 +1,1 @@
+$(function(){function n(){$("body").hasClass("open-menu")?o.offset({left:t-40}):o.css({left:""})}var o=$(".page-nav__btn"),e=$(".page-nav__links"),t=e.width();$(".page-nav__btn, .overlay-bg").click(function(){$("body").toggleClass("open-menu"),n()}),$(window).on("resize",n),$("body *").on("touchstart",function(){})});
